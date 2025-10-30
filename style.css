@@ -68,6 +68,7 @@ section.appear p {
     transform: translateY(0);
 }
 
+/* Стилі для main */
 main {
     padding: 20px;
 }
