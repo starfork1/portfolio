@@ -69,3 +69,7 @@ section.appear p {
     opacity: 1;
     transform: translateY(0);
 }
+
+main {
+    padding: 20px;
+}
