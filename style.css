@@ -17,3 +17,8 @@ header ul li a {
     color: white;
     text-decoration: none;
 }
+
+header ul li a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+}
