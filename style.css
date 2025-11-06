@@ -1,3 +1,4 @@
+/* Стилі для хедера */
 header {
     background-color: #333;
     padding: 10px 0;
@@ -18,6 +19,7 @@ header ul li a {
     text-decoration: none;
 }
 
+/* Стилі для футера */
 footer {
     background-color: #333;
     color: white;
@@ -40,17 +42,21 @@ footer a:hover {
     text-decoration: underline;
 }
 
+/* Базові стилі для секцій з ефектом появи */
 section {
     opacity: 0;
+    /* початково невидимі */
     transform: translateY(20px);
     transition: all 0.6s ease-out;
 }
 
+/* Клас для показу секцій при скролі */
 section.appear {
     opacity: 1;
     transform: translateY(0);
 }
 
+/* Стилі для заголовків та параграфів всередині секцій */
 section h2,
 section p {
     opacity: 0;
